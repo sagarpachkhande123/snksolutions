@@ -1,0 +1,29 @@
+/* body{
+    background-color: red;
+    color: whitesmoke;
+    /* padding: 20%; */
+
+
+span{
+    background: rgb(82, 179, 179);
+    width: 20%;
+    height: 200px;
+    display:inline-block;
+    /* column-span: 20px; */
+   margin-inline-end: 20px;
+}
+span img{
+    height: 100%;
+    width: 100%;
+}
+#kh{
+    background-color:hotpink;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* div{
+    background: red;
+    width: 30%;
+    height: 200px;
+} */

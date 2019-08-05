@@ -1,0 +1,262 @@
+<html>
+    <head>
+        <title>
+            Registration Page
+        </title>
+      
+        <link rel="stylesheet" href="D:\QSP Banglore\html and CSS\SNK Solutions\registration.css.css"/>
+
+        <style>
+        
+        
+        
+        </style>
+      
+       
+    </head>
+    <!-- <body bgcolor="#70829e"> -->
+        <body bgcolor="#34857e">
+            <center>
+            <header>
+                <h1>SNK Registration</h1>
+            </header>
+        </center>
+        <!-- <div>
+        <marquee><h1>ABC</h1></marquee>
+       
+          <!-- <marquee direction="down"> <img src="D:\Administrator\hand.png"/></marquee> -->
+       <!-- </div>  -->
+<!-- <center> -->
+    <!-- <div class="style=background-color:red"> -->
+       <h1>
+           Welcome to Our Website
+       </h1>
+       <hr/>
+       <hr/>
+       <br/>
+       <br/>
+    <!-- </center>
+       <span>
+           <marquee direction="left" scrollamount="20">
+           <img src="CSS/img1.jpg"/>
+            <br/>
+        </marquee>
+       </span>
+       <span>
+            <marquee direction="down" scrollamount="20">
+                    <img src="CSS/img2.jpg"/>
+                     <br/>
+                 </marquee>
+        </span>
+        <span>
+                <marquee direction="right" scrollamount="20">
+                        <img src="CSS/img3.jpg"/>
+                         <br/>
+                     </marquee>
+            </span>
+
+            <br/>
+            <br/>
+            <br/> -->
+            <!-- Form IMformation -->
+            <section>
+        <form action="" method="POST" >
+            <fieldset style="width:50%">
+                <legend><b><h1>Registration Form</h1> </b></legend>
+                <div>
+                <label for="username"><b>Username::</b></label>
+
+                <!-- html file Validation -->
+                <input autofocus type="text" id="username" name="username" minlength="3" maxlength="10" pattern="^[a-zA-Z]+$" placeholder="Enter Name" >
+                <br/>
+                <br/>
+                <label for="password"><b>Password::</b></label>
+
+                <input type="password" id="password" name="password" placeholder="Enter Password" required>
+
+                <br/>
+                <br/>
+                <label for="email"><b>Email::</b></label>
+                <input type="email" name="email" >
+                
+                <br/>
+                <br/>
+                <label for="age"><b>Age::</b></label>
+                <input type="number" name="age" min="0" max="10" step="5">
+               
+                <!-- <textarea name="des" id="kh" cols="30" rows="10">
+
+                </textarea>
+                 -->
+                <br/>
+                <br/>
+
+            <!-- For RadioButton -->
+                <input type="radio" name="gender" id="gender"> Male <br/>
+
+                <input type="radio" name="gender" id="gender"> Female
+
+                <br/>
+                <br/>    
+
+            <!-- For checkbox -->
+                <label for="skill_set"><b>Skill Set::</b></label><br/>   
+                <input type="checkbox" name="language"> Java <br/>    
+                <input type="checkbox" name="language"> python <br/>   
+                <input type="checkbox" name="language"> nodejs <br/>   
+                <input type="checkbox" name="language"> Angular <br/>   
+
+                <br/>
+                <br/>   
+                
+            </div>
+
+            <!--For Dropdown List -->
+
+            <div>
+                <b>Select State::</b><br/>
+                <!-- <select name="Select State" id="language" multiple> -->
+                        <select name="Select State" id="language"  size="3" >         
+                    <option value="1" selected>Maharashtra</option>
+                    <option value="2">karnataka</option>
+                    <option value="3">MP</option>
+                    <option value="4">UP</option>
+                   
+
+                </select>
+
+            </div>
+            <br/>
+            <br/> 
+
+            <div>
+                <b>Upload Resume::</b>
+                <input type="file" name="fileupload">
+                <br/>
+                <br/> 
+                
+                <b>Range:: </b>
+                <input type="range" id="rangeinput" name="range" min="0" max="100" step="2" value="0" oninput="amount.value=rangeinput.value">
+                <output id="amount" name="amount" for="rangeinput">0</output>
+                
+                <br/>
+                <br/> 
+                <b>Search Box:: </b>
+                <input type="search" name="search">
+
+                <br/>
+                <br/> 
+                <b>URL BOX:: </b>
+                <input type="url" name="url">
+
+                <br/>
+                <br/> 
+                <b> Color Palette::  </b>
+                <input type="color" name="" id="">
+                <br/>
+                <br/> 
+                    <!-- Calender -->
+                    <b>Calender::</b>
+                    
+                <input type="date" name="">
+
+                <br/>
+                <br/> 
+                <!-- DateTime -->
+                <b>Date Time</b>
+                <input type="datetime-local" name="">
+
+                <br/>
+                <br/> 
+                <!-- Time -->
+                <b>Time</b>
+                <input type="time" name="">
+                
+                <br/>
+                <br/> 
+                <!-- week Elemnet -->
+                <b>Week Elementt</b>
+                <input type="week" name="">
+
+
+                <br/>
+                <br/> 
+                <!-- Hidden Element -->
+                <b>Hidden Elementt</b>
+                <input type="hidden" name="">
+            </div>
+
+            <br/>
+            <br/> 
+          
+            <b>Month Element</b>
+            <input type="month" name="month" id="">
+            <br/>
+            <br/> 
+
+            <b>Family Information</b>
+            <div>
+            <textarea>
+
+            </textarea>
+            
+        </div>
+
+        <br/>
+        <br/>
+        <input list="list">
+        <datalist id="browser">
+            <option value="IE">
+            <option value="Ia">
+            <option value="Ih">
+                         
+        </datalist>
+            <br/>
+            <br/>
+            <input type="checkbox" name="" id="" required><b> I accept the <u>terms and condition</u></b>
+            <br/>
+            <br/>
+            <center>
+            <input type="submit" value="Submit" style="height:40px; width:70px; background-color: royalblue;font-family: Arial, Helvetica, sans-serif;color:white;">
+        </center>
+           
+        </fieldset>
+ 
+        </form>
+    </section>
+
+        <!-- Template is used to hide the info also as like by Hidden attribute  -->
+        <template>
+            <p>hjfsvjhsvdvj</p>
+        </template>
+        <div hidden>
+            <p>Created by Sagar</p>
+        </div>
+
+
+
+
+
+    <!-- Tool TIp -->
+       <details>
+            <summary>
+                SAGAR PACHKHANDE
+            </summary>
+            <p>
+                Lorem ipsum dolor sit.
+            </p>
+       </details>
+
+
+       <progress max="100" min="0" value="65">
+
+       </progress>
+
+       <!-- Meter tag only the color are different than progress mainly used for measurement purpose -->
+       <br/>
+        <br/>
+       <meter max="100" min="60" value="70">
+
+       </meter>
+    </body>
+</html>
